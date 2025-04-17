@@ -1,0 +1,16 @@
+# Зависимости
+node_modules/
+.next/
+.DS_Store
+
+# Файлы окружения
+.env*.local
+
+# Логи и кэш
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Системные файлы
+Thumbs.db

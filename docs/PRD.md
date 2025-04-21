@@ -22,9 +22,9 @@
 3. Технические требования
 Технологический стек
 - Фронтенд: Next.js (TSX), Tailwind CSS, shadcn/ui
-- Бэкенд: Supabase (PostgreSQL)
-- Аутентификация: NextAuth.js
-- Хостинг: Vercel
+- Бэкенд и аутентификация: Firebase или Supabase
+- Хостинг: Vercel  
+- Пакетный менеджер: pnpm
 
 Хранение данных: LocalStorage (без сервера)
 

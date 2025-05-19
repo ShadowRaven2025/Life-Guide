@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="400px" viewBox="0 0 800 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Light Bulbs</title>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="70%" id="radialGradient-1">
+            <stop stop-color="#FFD700" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#FF8C00" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="70%" id="radialGradient-2">
+            <stop stop-color="#FFD700" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#FF8C00" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="70%" id="radialGradient-3">
+            <stop stop-color="#FFD700" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#FF8C00" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background" fill="#121212" x="0" y="0" width="800" height="400"></rect>
+
+        <!-- Glow effects -->
+        <circle id="Glow1" fill="url(#radialGradient-1)" cx="300" cy="100" r="100"></circle>
+        <circle id="Glow2" fill="url(#radialGradient-2)" cx="500" cy="150" r="120"></circle>
+        <circle id="Glow3" fill="url(#radialGradient-3)" cx="400" cy="50" r="80"></circle>
+
+        <!-- Light Bulb 1 -->
+        <g id="Bulb1" transform="translate(280, 50)">
+            <path d="M40,0 C62.09,0 80,17.91 80,40 C80,62.09 62.09,80 40,80 C17.91,80 0,62.09 0,40 C0,17.91 17.91,0 40,0 Z" fill="#333333"></path>
+            <path d="M40,10 C56.57,10 70,23.43 70,40 C70,56.57 56.57,70 40,70 C23.43,70 10,56.57 10,40 C10,23.43 23.43,10 40,10 Z" fill="#FFD700" opacity="0.8"></path>
+            <rect x="35" y="80" width="10" height="20" fill="#555555"></rect>
+            <path d="M30,100 L50,100 L50,110 C50,112.76 47.76,115 45,115 L35,115 C32.24,115 30,112.76 30,110 L30,100 Z" fill="#777777"></path>
+        </g>
+
+        <!-- Light Bulb 2 -->
+        <g id="Bulb2" transform="translate(480, 100)">
+            <path d="M40,0 C62.09,0 80,17.91 80,40 C80,62.09 62.09,80 40,80 C17.91,80 0,62.09 0,40 C0,17.91 17.91,0 40,0 Z" fill="#333333"></path>
+            <path d="M40,10 C56.57,10 70,23.43 70,40 C70,56.57 56.57,70 40,70 C23.43,70 10,56.57 10,40 C10,23.43 23.43,10 40,10 Z" fill="#FFD700" opacity="0.8"></path>
+            <rect x="35" y="80" width="10" height="20" fill="#555555"></rect>
+            <path d="M30,100 L50,100 L50,110 C50,112.76 47.76,115 45,115 L35,115 C32.24,115 30,112.76 30,110 L30,100 Z" fill="#777777"></path>
+        </g>
+
+        <!-- Light Bulb 3 -->
+        <g id="Bulb3" transform="translate(380, 0)">
+            <path d="M40,0 C62.09,0 80,17.91 80,40 C80,62.09 62.09,80 40,80 C17.91,80 0,62.09 0,40 C0,17.91 17.91,0 40,0 Z" fill="#333333"></path>
+            <path d="M40,10 C56.57,10 70,23.43 70,40 C70,56.57 56.57,70 40,70 C23.43,70 10,56.57 10,40 C10,23.43 23.43,10 40,10 Z" fill="#FFD700" opacity="0.8"></path>
+            <rect x="35" y="80" width="10" height="20" fill="#555555"></rect>
+            <path d="M30,100 L50,100 L50,110 C50,112.76 47.76,115 45,115 L35,115 C32.24,115 30,112.76 30,110 L30,100 Z" fill="#777777"></path>
+        </g>
+
+        <!-- Text -->
+        <text x="400" y="250" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Идеи и вдохновение</text>
+        <text x="400" y="300" font-family="Arial, sans-serif" font-size="24" fill="#AAAAAA" text-anchor="middle">Ваш источник полезных советов</text>
+    </g>
+</svg>
